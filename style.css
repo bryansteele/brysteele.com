@@ -160,7 +160,7 @@ span {
   box-shadow: none;
 }
 
-.about .thank-you {
+.about {
   display: flex;
   justify-content: center;
   align-items: center;
