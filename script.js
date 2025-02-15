@@ -48,8 +48,16 @@ ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 // TYPED JS
-const typed = new Typed('.multiple-text', {
-  strings: ['Frontend Development.', 'Backend Development.', 'Web Development.', 'All Things Tech.'],
+// const typed = new Typed('.multiple-text-1', {
+//   strings: ['Frontend Development.', 'Backend Development.', 'Web Development.', 'All Things Tech.'],
+//   typeSpeed: 70,
+//   backSpeed: 70,
+//   backDelay: 1000,
+//   loop: true,
+// });
+
+const typed = new Typed('.multiple-text-2', {
+  strings: ['Music.', 'the Piano.', 'Cooking.'],
   typeSpeed: 70,
   backSpeed: 70,
   backDelay: 1000,
