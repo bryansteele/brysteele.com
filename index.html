@@ -30,7 +30,7 @@
         <h3>Hello, I'm</h3>
         <h1>Bryan Steele</h1>
         <h3><span>Interweb Practitioner</span> for the Information Superhighway and it’s World Wide of Webs</h3>
-        <p>I enjoy <span>Web Development</span></span> I also enjoy <span class="multiple-text"></span></p>
+        <p>I enjoy <span>Web Development</span> I also enjoy <span class="multiple-text"></span></p>
         <div class="social-media">
           <a href="https://www.linkedin.com/in/iambryansteele/"><i class="fa-brands fa-linkedin"></i></a>
           <a href="https://github.com/bryansteele/"><i class="fa-brands fa-github"></i></a>
@@ -124,17 +124,18 @@
     <section class="contact" id="contact">
       <h2 class="heading">Get in Touch<br /><span>Contact Me</span></h2>
 
-      <form action="#">
+      <form action="https://formsubmit.co/hello@brysteele.com" method="POST">
         <div class="input-box">
-          <input type="text" placeholder="Full Name" />
-          <input type="email" placeholder="Email Address" />
+          <input type="text" placeholder="Full Name" required />
+          <input type="email" placeholder="Email Address" required />
         </div>
 
         <div class="input-box">
           <input type="number" placeholder="Phone Number" class="no-spinspin" />
-          <input type="text" placeholder="Email Subject" />
+          <input type="text" placeholder="Subject" />
         </div>
 
+        <input type="hidden" name="_next" value="https://brysteele.com/thank-you.html" />
         <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
         <input type="submit" value="Send Message Soon" class="btn" />
       </form>
