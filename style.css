@@ -168,8 +168,7 @@ span {
   background: var(--snd-bg-color);
 }
 
-.about-img img,
-.thank-you-img img {
+.about-img img {
   width: 35vw;
   border-radius: 12.5%;
   border: 5px solid var(--main-color);
@@ -180,19 +179,16 @@ span {
   font-size: 4.5rem;
 }
 
-.about-content h2,
-.thank-you-content h2 {
+.about-content h2 {
   text-align: left;
   line-height: 1.2;
 }
 
-.about-content h3,
-.thank-you-content h3 {
+.about-content h3 {
   font-size: 2.6rem;
 }
 
-.about-content p,
-.thank-you-content p {
+.about-content p {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
 }
@@ -491,8 +487,7 @@ span {
     flex-direction: column;
   }
 
-  .about-img img,
-  .thank-you-img img {
+  .about-img img {
     width: 90vw;
     margin-top: 4rem;
   }
@@ -520,8 +515,7 @@ span {
     margin-top: 8rem;
   }
 
-  .about-img img,
-  .thank-you-img img {
+  .about-img img {
     width: 100vw;
     margin-top: 4rem;
   }
