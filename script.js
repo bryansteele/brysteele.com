@@ -47,17 +47,8 @@ ScrollReveal().reveal('.home-img, .experience-container, .project-box, .contact 
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
-// TYPED JS
-// const typed = new Typed('.multiple-text-1', {
-//   strings: ['Frontend Development.', 'Backend Development.', 'Web Development.', 'All Things Tech.'],
-//   typeSpeed: 70,
-//   backSpeed: 70,
-//   backDelay: 1000,
-//   loop: true,
-// });
-
-const typed = new Typed('.multiple-text-2', {
-  strings: ['Music.', 'the Piano.', 'Cooking.'],
+const typed = new Typed('.multiple-text', {
+  strings: ['Music <i class="fa-solid fa-music"></i>', 'Playing the Piano <i class="fa-solid fa-music"></i>', 'Cooking <i class="fa-solid fa-utensils"></i>', 'Fishing <i class="fa-solid fa-fish-fins"></i>'],
   typeSpeed: 70,
   backSpeed: 70,
   backDelay: 1000,
