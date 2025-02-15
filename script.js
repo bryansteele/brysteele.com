@@ -44,8 +44,8 @@ ScrollReveal({
 
 ScrollReveal().reveal('.home-content, heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .experience-container, .project-box, .contact form', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .about-img, thank-you-img', { origin: 'left' });
-ScrollReveal().reveal('.home-content p, .about-content, thank-you-content', { origin: 'right' });
+ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
+ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 const typed = new Typed('.multiple-text', {
   strings: ['Music <i class="fa-solid fa-music"></i>', 'Playing the Piano <i class="fa-solid fa-music"></i>', 'Cooking <i class="fa-solid fa-utensils"></i>', 'Fishing <i class="fa-solid fa-fish-fins"></i>'],
