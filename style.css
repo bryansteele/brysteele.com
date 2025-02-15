@@ -368,6 +368,45 @@ span {
 }
 /* ------------------------------------------- */
 
+/* THANK YOU PAGE */
+.thank-you {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: var(--snd-bg-color);
+}
+
+.thank-you-img img {
+  width: 35vw;
+  border-radius: 12.5%;
+  border: 5px solid var(--main-color);
+}
+
+.thank-you-content h2 {
+  text-align: left;
+  line-height: 1.2;
+}
+
+.thank-you-content h3 {
+  font-size: 2.6rem;
+}
+
+.thank-you-content p {
+  font-size: 1.6rem;
+  margin: 2rem 0 3rem;
+}
+
+.footer-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 9%;
+  background: var(--bg-color);
+}
+/* ------------------------------------------- */
+
 .footer {
   display: flex;
   justify-content: space-between;
