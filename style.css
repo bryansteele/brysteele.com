@@ -357,15 +357,15 @@ span {
 }
 
 /* REMOVES NUMBER INPUT SCROLL ON CONTACT FORM */
-.no-spinspin {
+/* .spinspin::input[type='number'] {
   -moz-appearance: textfield;
 }
 
-.no-spinspin::-webkit-outer-spin-button,
-.no-spinspin::-webkit-inner-spin-button {
+.spinspin::-webkit-outer-spin-button,
+.spinspin::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
-}
+} */
 /* ------------------------------------------- */
 
 /* THANK YOU PAGE */
