@@ -356,18 +356,6 @@ span {
   cursor: pointer;
 }
 
-/* REMOVES NUMBER INPUT SCROLL ON CONTACT FORM */
-/* .spinspin::input[type='number'] {
-  -moz-appearance: textfield;
-}
-
-.spinspin::-webkit-outer-spin-button,
-.spinspin::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-} */
-/* ------------------------------------------- */
-
 /* THANK YOU PAGE */
 .thank-you {
   display: flex;
