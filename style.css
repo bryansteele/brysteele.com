@@ -395,6 +395,36 @@ span {
 }
 /* ------------------------------------------- */
 
+/* FRONTEND EXPERIENCE PAGE */
+.frontend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: var(--snd-bg-color);
+}
+
+.frontend-img img {
+  width: 35vw;
+  border-radius: 12.5%;
+  border: 5px solid var(--main-color);
+}
+
+.frontend-content h2 {
+  text-align: left;
+  line-height: 1.2;
+}
+
+.frontend-content h3 {
+  font-size: 2.6rem;
+}
+
+.frontend-content p {
+  font-size: 1.6rem;
+  margin: 2rem 0 3rem;
+}
+/* ------------------------------------------- */
+
 .footer {
   display: flex;
   justify-content: space-between;
