@@ -48,7 +48,7 @@ ScrollReveal().reveal('.home-content h1, .about-img, .thank-you-img', { origin: 
 ScrollReveal().reveal('.home-content p, .about-content, .thank-you-content', { origin: 'right' });
 
 const typed = new Typed('.multiple-text', {
-  strings: ['Music <i class="fa-solid fa-music"></i>', 'the Piano <i class="fa-solid fa-music"></i>', 'Cooking <i class="fa-solid fa-utensils"></i>', 'Fishing <i class="fa-solid fa-fish-fins"></i>'],
+  strings: ['Linux <i class="fa-brands fa-linux"></i>', 'Programming <i class="fa-brands fa-python"></i> <i class="fa-solid fa-code-branch"></i> <i class="fa-brands fa-js"></i>', 'Cybersecurity <i class="fa-solid fa-shield-halved"></i>'],
   typeSpeed: 70,
   backSpeed: 70,
   backDelay: 1000,
