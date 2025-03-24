@@ -1,0 +1,5 @@
+# Redirect /blog and everything under it to blog subdomain
+/blog/*     https://blog.brysteele.com/:splat    301
+
+# Redirect www.brysteele.com to root domain (non-www)
+https://www.brysteele.com/*     https://brysteele.com/:splat    301!
