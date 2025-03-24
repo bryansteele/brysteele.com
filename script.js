@@ -38,8 +38,8 @@ navLinks.forEach((link) => {
   header.classList.toggle('sticky', window.scrollY > 100);
 
   // REMOVE TOGGLE ICON AND NAVBAR
-//   menuIcon.classList.remover('fa-xmark');
-menuIcon.classList.remove('fa-xmark');
+menuIcon.classList.remover('fa-xmark');
+// menuIcon.classList.remove('fa-xmark');
   navbar.classList.remove('active');
 };
 
