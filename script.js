@@ -1,6 +1,8 @@
 // TOGGLE NAVBAR ICON
-let menuIcon = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
+let sections = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header nav a');
+// let menuIcon = document.querySelector('#menu-icon');
+// let navbar = document.querySelector('.navbar');
 
 menuIcon.onclick = () => {
   menuIcon.classList.toggle('fa-xmark');
@@ -18,20 +20,28 @@ window.onscroll = () => {
     let height = sec.offsetHeight;
     let id = sec.getAttribute('id');
 
-    if (top >= offset && top < offet + height) {
-      navLinks.forEach.apply((links) => {
-        links.classList.remove('active');
-        document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
-      });
+//     if (top >= offset && top < offset + height) {
+//       navLinks.forEach.apply((links) => {
+//         links.classList.remove('active');
+//         document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+//       });
+//     }
+//   });
+navLinks.forEach((link) => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === `#${id}`) {
+      link.classList.add('active');
     }
   });
+  
 
   // STICKY NAVBAR
   let header = document.querySelector('header');
   header.classList.toggle('sticky', window.scrollY > 100);
 
   // REMOVE TOGGLE ICON AND NAVBAR
-  menuIcon.classList.remover('fa-xmark');
+//   menuIcon.classList.remover('fa-xmark');
+menuIcon.classList.remove('fa-xmark');
   navbar.classList.remove('active');
 };
 
@@ -53,4 +63,5 @@ const typed = new Typed('.multiple-text', {
   backSpeed: 70,
   backDelay: 1000,
   loop: true,
+  html: true,
 });
