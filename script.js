@@ -25,19 +25,19 @@ window.onscroll = () => {
       });
     }
   });
-  navLinks.forEach((link) => {
-    link.classList.remove('active');
-    if (link.getAttribute('href') === `#${id}`) {
-      link.classList.add('active');
-    }
-  });
+  //   navLinks.forEach((link) => {
+  //     link.classList.remove('active');
+  //     if (link.getAttribute('href') === `#${id}`) {
+  //       link.classList.add('active');
+  //     }
+  //   });
 
   // STICKY NAVBAR
   let header = document.querySelector('header');
   header.classList.toggle('sticky', window.scrollY > 100);
 
   // REMOVE TOGGLE ICON AND NAVBAR
-  menuIcon.classList.remover('fa-xmark');
+  menuIcon.classList.remove('fa-xmark');
   // menuIcon.classList.remove('fa-xmark');
   navbar.classList.remove('active');
 };
