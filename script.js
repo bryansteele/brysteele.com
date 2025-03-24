@@ -18,28 +18,27 @@ window.onscroll = () => {
     let height = sec.offsetHeight;
     let id = sec.getAttribute('id');
 
-//     if (top >= offset && top < offset + height) {
-//       navLinks.forEach.apply((links) => {
-//         links.classList.remove('active');
-//         document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
-//       });
-//     }
-//   });
-navLinks.forEach((link) => {
+    if (top >= offset && top < offset + height) {
+      navLinks.forEach.apply((links) => {
+        links.classList.remove('active');
+        document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+      });
+    }
+  });
+  navLinks.forEach((link) => {
     link.classList.remove('active');
     if (link.getAttribute('href') === `#${id}`) {
       link.classList.add('active');
     }
   });
-  
 
   // STICKY NAVBAR
   let header = document.querySelector('header');
   header.classList.toggle('sticky', window.scrollY > 100);
 
   // REMOVE TOGGLE ICON AND NAVBAR
-menuIcon.classList.remover('fa-xmark');
-// menuIcon.classList.remove('fa-xmark');
+  menuIcon.classList.remover('fa-xmark');
+  // menuIcon.classList.remove('fa-xmark');
   navbar.classList.remove('active');
 };
 
