@@ -38,7 +38,7 @@ window.onscroll = () => {
 
   // REMOVE TOGGLE ICON AND NAVBAR
   menuIcon.classList.remove('fa-xmark');
-  // menuIcon.classList.remove('fa-xmark');
+  // menuIcon.classList.remover('fa-xmark');
   navbar.classList.remove('active');
 };
 
