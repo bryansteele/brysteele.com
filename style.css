@@ -46,12 +46,23 @@ section {
   z-index: 100;
 }
 
-.logo {
+/* .logo {
   font-size: 2.5rem;
   color: var(--text-color);
   font-weight: 700;
   cursor: default;
-}
+} */
+
+.logo-link {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .logo-link:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+  }
+  
 
 .navbar a {
   font-size: 1.5rem;
