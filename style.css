@@ -246,6 +246,22 @@ span {
   margin: 1rem 0 3rem;
 }
 
+.back-button {
+    background-color: #59b2f4;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #3d99dc;
+  }
+  
+
 .project {
   background: var(--snd-bg-color);
 }
@@ -367,6 +383,15 @@ span {
   cursor: pointer;
 }
 
+.form-note {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #8a8a8a; /* light gray */
+    text-align: center;
+    font-style: italic;
+  }
+
+
 /* THANK YOU PAGE */
 .thank-you {
   display: flex;
@@ -462,6 +487,9 @@ span {
 .footer-iconTop a:hover,
 .footer-iconTop a:focus-visible {
   box-shadow: 0 0 4rem var(--main-color);
+  background-color: #59b2f4;
+  transform: scale(1.1);
+  transition: 0.2s ease;
 }
 
 .footer-iconTop a i {

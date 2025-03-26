@@ -61,48 +61,51 @@
       </div>
 
       <div class="about-content">
-        <h2 class="heading">Get to Know More <span>About Me</span></h2>
+        <h2 class="heading"><span>My</span> Mission & Mindset</h2>
         <h3>Team Leader • Network Operations Engineer • U.S. Army Veteran</h3>
         <p>
-          With over a decade of technical and leadership experience, I specialize in optimizing infrastructure, strengthening security posture, and empowering teams to excel. <br />
+            I'm a U.S. Army Veteran and a passionate technologist with a mission-first mindset. I thrive in environments where performance, resilience, and innovation intersect. <br> Whether I’m mentoring engineers, troubleshooting critical incidents, or engineering scalable systems, I bring focus, precision, and a bias for action. <br> My core values? Continuous improvement, tactical execution, and lifting others up. <br>
+            My passions extend beyond technology, as music and cooking offer me creative outlets that inspire and share similar areas of enthusiasm.
+
+            <!--  With over a decade of technical and leadership experience, I specialize in optimizing infrastructure, strengthening security posture, and empowering teams to excel. <br />
           I'm a U.S. Army Veteran and a passionate technologist with a mission-first mindset. I thrive in environments where performance, resilience, and innovation intersect. Whether I’m mentoring engineers, troubleshooting critical incidents, or engineering scalable systems, I bring focus, precision, and a bias for action. <br />
-          My core values? Continuous improvement, tactical execution, and lifting others up. Outside of tech, I recharge through music and cooking—two other crafts that demand both discipline and creativity. <br />
+          My core values? Continuous improvement, tactical execution, and lifting others up. <br> Outside of tech, I recharge through music and cooking—two other crafts that demand both discipline and creativity. <br />
           > 🛠️ Linux • Networking • Cloud • Automation • Security <br />
-          > 🎯 Problem Solver • Mentor • Builder
+          > 🎯 Troubleshooter • Problem Solver • Mentor • Builder  -->
         </p>
-        <a href="https://blog.brysteele.com" target="b" class="btn">Visit Bryan’s Backbone</a>
+        <a href="https://blog.brysteele.com" target="b" class="btn">Visit Bryan’s Backbone Blog</a>
       </div>
     </section>
 
-    <!-- EXPERIENCE SECTION -->
+    <!-- EXPERIENCE & PROJECTS SECTION -->
     <section class="experience" id="experience">
-      <h2 class="heading">Explore My<br /><span>Experience</span></h2>
+      <h2 class="heading">Explore My<br /><span>Experience & Projects</span></h2>
 
       <div class="experience-container">
         <div class="experience-box">
           <i class="fa-solid fa-code"></i>
-          <h3>Frontend Development</h3>
-          <p>HTML, CSS, Javascript, Astro, Vite</p>
-          <a href="/pages/frontend.html" class="btn">Under Construction</a>
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JavaScript, Astro, Tailwinds CSS <br> Node.js, Python, Ruby, SQL <br> Git, Responsive Design</p>
+          <a href="/pages/web-development.html" class="btn">Dev Projects</a>
         </div>
 
         <div class="experience-box">
           <i class="fa-solid fa-code"></i>
-          <h3>Backend Development</h3>
-          <p>Node.js, Python, Ruby, Linux, SQL, Git</p>
-          <a href="#" class="btn">Read More Soon</a>
+          <h3>Tinkering & Tooling <br> Systems & Security</h3>
+          <p>Linux (RHEL, Fedora, Ubuntu), Virtualization, Cloud, Servers <br> Shell & Python Scripting, Markdown, Automation <br> Raspberry Pi, DNS & VPN Security, Wiregaurd, OpenVPN<br> Cyber Security, Security Information Event Management (SEIM), System Hardening</p>
+          <a href="/pages/tinkering.html" class="btn">See Behind the Scenes</a>
         </div>
 
         <div class="experience-box">
           <i class="fa-solid fa-network-wired"></i>
           <h3>Networking Tech</h3>
-          <p>Juniper, Cisco, ALU Nokia, Tellabs, Service Provider Network, Structured Cabling (Fiber/Copper)</p>
-          <a href="https://www.linkedin.com/posts/iambryansteele_eveng-cisco-asr9k-activity-7298929834230009856-swyP?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqLrXEBtkIvbQt96j1Z019Lc42cj8vH5Dw" class="btn">Read More Soon</a>
+          <p>Cisco, Juniper, ALU Nokia, Tellabs, Ubiquity UniFi<br> TCP/IP, MPLS, RSVP-TE, L2 & L3VPN, BGP, OSPF <br> LAN/WAN, Wireless <br> Structured Cabling (Fiber/Copper), Labs</p>
+          <a href="/pages/network.html" class="btn">Networking Projects</a>
         </div>
       </div>
     </section>
 
-    <!-- PROJECTS SECTION -->
+    {{/*  <!-- PROJECTS SECTION -->
     <section class="project" id="project">
       <h2 class="heading">My<br /><span>Playground</span></h2>
 
@@ -140,28 +143,30 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>  */}}
 
     <!-- CONTACT SECTION -->
     <section class="contact" id="contact">
-      <h2 class="heading">Get in Touch<br /><span>Contact Me</span></h2>
+      <h2 class="heading">Have a question, opportunity, or just want to connect?<br /><span>Drop me a message.</span></h2>
 
       <form action="https://formsubmit.co/hello@brysteele.com" method="POST" enctype="multipart/form-data">
         <div class="input-box">
-          <input type="text" name="name" placeholder="Full Name" required />
-          <input type="email" name="email" placeholder="Email Address" required />
+          <input type="text" name="name" placeholder="Enter your full name" required />
+          <input type="email" name="email" placeholder="Email: Where can I reach you?" required />
         </div>
 
         <div class="input-box">
-          <input type="text" pattern="[0-9]+([-\,][0-9]+)?" name="number" placeholder="Phone Number" />
-          <input type="text" name="_subject" placeholder="Subject" />
+          <input type="text" pattern="[0-9]+([-\,][0-9]+)?" name="number" placeholder="Phone Number is optional, but helpful" />
+          <input type="text" name="_subject" placeholder="What's this about?" />
         </div>
 
         <input type="hidden" name="_template" value="table" />
         <input type="hidden" name="_next" value="https://brysteele.com/pages/thank-you.html" />
-        <textarea type="text" name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-        <input type="submit" value="Send Message" class="btn" />
+        <textarea type="text" name="message" id="" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+        <input type="submit" value="Fire Away" class="btn" />
+        <p class="form-note">I'll respond as soon as I can. Your message matters.</p>
       </form>
+
     </section>
 
     <!-- FOOTER SECTION -->
