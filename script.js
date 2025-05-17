@@ -55,7 +55,7 @@ ScrollReveal().reveal('.home-content h1, .about-img, .thank-you-img', { origin: 
 ScrollReveal().reveal('.home-content p, .about-content, .thank-you-content', { origin: 'right' });
 
 const typed = new Typed('.multiple-text', {
-  strings: ['Music <i class="fa-solid fa-music"></i>', 'the Piano <i class="fa-solid fa-music"></i>', 'Cooking <i class="fa-solid fa-utensils"></i>', 'Fishing <i class="fa-solid fa-fish-fins"></i>'],
+  strings: ['people <i class="fa-solid fa-people-arrows"></i>', 'packets <i class="fa-solid fa-diagram-project"></i>', 'potential <i class="fa-regular fa-star"></i><i class="fa-regular fa-lightbulb"></i>'],
   typeSpeed: 70,
   backSpeed: 70,
   backDelay: 1000,
